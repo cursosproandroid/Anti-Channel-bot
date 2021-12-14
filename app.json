@@ -1,0 +1,42 @@
+{
+    "name": "Un bot anti-canales para grupos, por @DKzippO - ©️ Cursos Pro Android",
+    "description": "Un Bot de Telegram para expulsar a los usuarios que usan un canal para enviar mensajes. Hecho con ❤️ por Skueletor.",
+    "keywords": [
+        "telegram",
+        "Cursos Pro Android",
+        "AntiChannel",
+        "channel",
+        "Skueletor",
+        "Group",
+        "manager",
+        "bot"
+    ],
+    "repository": "https://github.com/cursosproandroid/Anti-Channel-bot",
+    "website": "https://telegram.dog/DKzippO",
+    "success_url": "https://t.me/+VDY6scK_lf9HsKRn",
+    "env": {
+        "API_ID": {
+            "description": "Obtén este valor desde my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Obtén este valor desde my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Coloca aquí el Token que fue otorgado por @BotFather a la hora de crear el bot."
+        },
+        "DATABASE_URL": {
+            "description": "URI de MongoDB para guardar la configuración del chat. Revisa el video tutorial creado por Skueletor para entender qué colocar en esta parte."
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
