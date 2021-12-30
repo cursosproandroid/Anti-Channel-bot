@@ -2,7 +2,7 @@
 Un bot de Telegram Anti-Canal para banear a los usuarios que usan un canal para enviar mensajes en algún grupo.
 
 ### ENLACE DEL BOT:
-<a href="https://t.me/Sku_AntiChannelBot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Sku_AntiChannel_Bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 ### Características:
 - Baneo automático
